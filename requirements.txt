@@ -1,0 +1,19 @@
+# Core analytics
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+duckdb>=0.10.0
+
+# Notebook environment
+jupyter>=1.0
+nbformat>=5.9
+ipykernel>=6.0
+
+# Utilities
+tabulate>=0.9        # pretty-print tables in notebooks
+python-dotenv>=1.0   # load .env for optional credentials
+
+# Dev / linting (optional — install with: pip install -r requirements.txt -r requirements-dev.txt)
+# black>=24.0
+# flake8>=7.0
+# isort>=5.13

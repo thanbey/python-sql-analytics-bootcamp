@@ -1,0 +1,46 @@
+# MCP config (local only — may contain credentials)
+.mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Data (raw is committed; processed/interim are not)
+data/interim/
+data/processed/
+data/external/
+
+# Reports / figures (generated outputs — not source-controlled)
+reports/figures/*.png
+reports/figures/*.pdf
+reports/figures/*.svg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Legacy flat directories (canonical paths are under notebooks/ and data/raw/)
+week_01_02/
+week_03_04/
+week_05_06/
+week_07_08/
+00_assessment/
+datasets/
+checkpoints/
+
+# Generator scripts (used to build notebooks, not part of the curriculum)
+gen_*.py
+*.gen.py
+
+# Tableau extracts (generated)
+data/tableau/
+*.hyper
